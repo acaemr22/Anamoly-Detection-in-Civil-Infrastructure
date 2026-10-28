@@ -1,2 +1,8 @@
 # Anamoly-Detection-in-Civil-Infrastructure
 Infrastructure damage or problem detection is one of the problems for increasing the safety and quality in a city. This project offers a Optical2SAR image conversion and anomaly detection using Sentinel-1 and Sentinel-2 imagery. The anomaly detection was done by measuring the difference between dB values of the radar images by comparing the predicted SAR image from the U-Net model and  images from the Sentinel-2. The detection sensitivity was observed by planting anomalies in the actual SAR imagery, how the model sensitivity was affected by different magnitudes of planted anomalies, and how the model detection was affected by this result. As seen from the AUC graph, the model showed promise from anomalies with magnitude bigger than 6 dB.
+
+![Alt text](./Model/Images/Image_1.png)
+![Alt text](./Model/Images/Image_2.png)
+![Alt text](./Model/Images/Image_3.png)
+![Alt text](./Model/Images/Image_4.png)
+![Alt text](./Model/Images/Image_5.png)
